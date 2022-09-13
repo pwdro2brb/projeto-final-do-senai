@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CadastroEstilo.css">
+    <title>Cadastro</title>
+</head>
+
+
+<body>
+
+    <!--primeira barra de navegação/ cor preta-->
+    <div id="logo">
+        <img src="logo.jpg">
+        <h6 id="conta">Contato</h6>
+      </div>
+
+
+    <!--Segunda barra de navegação/ cor preta-->
+    <div class="boxNave statico boxnaveShadow">
+        <nav>
+            <ul class="flexNav">
+                <li><a href="#">Logo</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Soon</a></li>
+                <li><a href="#">Cadastrar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!--area principal/ login e fundo-->
+    <main class="form_Position">
+
+        <div class="form">
+
+            <!--título do formulário-->
+            <div class="title_form">
+                <h1>CADASTRO</h1>
+            </div>
+            <br>
+            <!--data field for user-->
+            <div class="input_dates">
+                <form action="/formRecebido" method="post">
+                    <div class="input_style">
+                        <label for="ResgistroNome">Nome de usuário</label>
+                        <input type="text" id="ResgistroNome" name="nome" title="nome do usuário" required minlength="7"
+                            placeholder="Usuário">
+                    </div>
+                    <div class="input_style">
+                        <label for="RegistroEmail">E-mail</label>
+                        <input type="email" id="RegistroEmail" name="email" title="Email" required minlength="5"
+                            placeholder="Email@gmail.com">
+                    </div>
+                    <div class="input_style">
+                        <label for="RegistroData">Data de nascimento</label>
+                        <input type="date" id="RegistroData" name="DataN" title="Data de nascimento" required
+                            minlength="5">
+                    </div>
+                    <div class="input_style">
+                        <label for="RegistroSenha">Senha</label>
+                        <input type="password" id="RegistroSenha" name="senha" title="Senha" required minlength="8"
+                            placeholder="senha">
+                    </div>
+            </div>
+            <br>
+            <!--Bottons-->
+            <div class="buttons">
+                <button class="button_style" type="submit">Cadastrar</button>
+            </div>
+            </form>
+            <!-- <button class="button_style">Cadastrar</button> -->
+            <p>Já possui conta? <a href="../index.html">Entrar</a> </p>
+
+        </div>
+    </main>
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+ font-family: 'Irish Grover', cursive;
+}
+
+#logo {
+  width: 100vw;
+  height: 10vh;
+ display: inline;
+}
+#conta {
+  font-size: 25px;
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#barra {
+  background-color: #131313;
+  color: white;
+}
+
+img{
+  width: 100px;
+  height: 80px;
+}
+
+#barra ul {
+  display:flex;
+  justify-content: space-around;
+  padding: 10px; 
+}
+
+#barra li {
+ list-style-type: none; 
+  display: inline;
+}
+
+.conteudo {
+  height: 80%;
+  width: 100%;
+  background-color: gray;
+} 
+
+#tela-login {
+  width: 100%;
+  float: left; 
+  background-color: gray;
+}
+
+#tela-L {
+  height: 90vh;
+  width: 50vw;
+  float: right;
+  background-color: white;
+}
+
+#logo {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+}
+#conta{
+    font-size: 25px;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ a:link, a:visited,a:hover,a:active {
+      text-decoration: none;
+    color: white;
+}
+  @media screen and (max-width:1000px) {
+    #barra ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    }
+  }
+h1 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 1.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  
+}
+h2 {
+    display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+  font-size: 1.35em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

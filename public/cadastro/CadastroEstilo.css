@@ -1,0 +1,218 @@
+/*fonte usada no figma*/
+/*@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+*/
+
+
+/*All elements*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #908e8a;
+    /*background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);*/
+}
+
+/* PARTE DAS BARRA DE NAVEGAÇÃO */
+.boxNave {
+    background-color: #000000;
+    padding: 15px;
+    width: 100vw;
+}
+
+.boxcolor {
+    height: 15px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+.boxnaveShadow {
+    box-shadow: 0px 2px 2px 0px #3c3838;
+}
+
+.statico {
+    position: sticky;
+    top: 0;
+}
+
+.flexNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+/*                                 */
+
+/* PARTE DO FORMULÁRIO */
+
+.form_Position{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: 30% 45%;
+    padding: 100px 0;
+}
+
+
+.form {
+    height: 500px;
+    width: 430px;
+    left: 50%;
+    bottom: 50%;
+    background-color: rgb(238, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 0px 0px black;
+    /*border-radius:10px;*/
+}
+
+img{
+    width: 100px;
+    height: 80px;
+}
+.title_form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+}
+
+.input_dates {
+    /*width: 332px;
+        height: 50px;*/
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+
+input {
+    width: 98%;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.buttons {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button_style {
+    margin-top: 10px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #cd1616;
+    border-radius: 5px;
+    /*background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);*/
+    transition-duration: 2.0s;
+    cursor: pointer;
+    border: 1px solid #050434;
+    box-shadow: 0px 2px 2px 0px #ff5b638d;
+}
+
+.button_style:hover {
+    background-color: #fc575e;
+    background-image: linear-gradient(315deg, #a32b31 0%, #a32b31 74%);
+    color: white;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+
+
+/*PARA RESPONSIVIDADE*/
+
+@media screen and (max-width:1000px) {
+    body {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .form {
+        width: 400px;
+    }
+
+    .flexNav {
+
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+#logo {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+#conta {
+    font-size: 25px;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

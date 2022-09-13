@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Configurações</title>
+    </head>
+    
+    <body>
+    
+    
+    <!--primeira barra de navegação/ cor preta-->
+    <div id="logo">
+        <img src="logo.jpg">
+        <h6 id="conta">Contato</h6>
+      </div>
+    
+    
+    <!--Segunda barra de navegação/ cor preta-->
+    <div class="boxNave statico boxnaveShadow">
+        <nav>
+            <ul class="flexNav">
+                <li><a href="../home/">Home</a></li>
+                <li><a href="../Sobre/index.html">Sobre</a></li>
+                <li><a href="">Brevimente</a></li>
+                <li><a href="">Brevimente</a></li>
+                <li><a href="../configurações/index.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+<br>
+<br>
+<br>
+
+  <!--area principal/ configurações-->
+  <main class="form_Position">
+
+    <div class="form">
+
+        <!--título do formulário-->
+        <div class="title_form">
+            <h1>Configurações</h1>
+        </div>
+
+        <!--data field for user-->
+        <div class="input_dates">
+            <form action="/alterDados" method="post">
+                <div class="input_style imgStyle">
+                    <img src="#">
+                    <input type="file" id="Alterarfoto" name="nome" title="nome do usuário" required>
+                </div>
+
+                <div class="input_style">
+                    <label for="ResgistroNome">Nome de usuário</label>
+                    <input type="text" id="AlterarNome" name="nome" title="nome do usuário" required minlength="7"
+                        placeholder="">
+                </div>
+                <div class="input_style">
+                    <label for="RegistroEmail">E-mail</label>
+                    <input type="email" id="AlterarEmail" name="email" title="Email" required minlength="5"
+                        placeholder="">
+                </div>
+                <div class="input_style">
+                    <label for="RegistroSenha">Senha</label>
+                    <input type="password" id="AlterarSenha" name="senha" title="Senha" required minlength="8"
+                        placeholder="">
+                </div>
+        </div>
+
+        <!--Bottons-->
+        <div class="buttons">
+            <button class="button_style" type="submit">Alterar</button>
+        </div>
+        </form>
+      <br>
+    </div>
+</main>
+</body>
+</html>
